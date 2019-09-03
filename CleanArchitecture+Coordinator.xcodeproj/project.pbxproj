@@ -8,24 +8,63 @@
 
 /* Begin PBXBuildFile section */
 		F2290E2E231EDC230087E65B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2290E2D231EDC230087E65B /* AppDelegate.swift */; };
-		F2290E30231EDC230087E65B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2290E2F231EDC230087E65B /* ViewController.swift */; };
 		F2290E33231EDC230087E65B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2290E31231EDC230087E65B /* Main.storyboard */; };
 		F2290E35231EDC250087E65B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2290E34231EDC250087E65B /* Assets.xcassets */; };
 		F2290E38231EDC250087E65B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2290E36231EDC250087E65B /* LaunchScreen.storyboard */; };
+		F2290E49231EDD7B0087E65B /* LoginGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2290E48231EDD7B0087E65B /* LoginGateway.swift */; };
+		F2290E4B231EDDA20087E65B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2290E4A231EDDA20087E65B /* LoginViewController.swift */; };
+		F2290E4D231EDDB90087E65B /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2290E4C231EDDB90087E65B /* LoginPresenter.swift */; };
+		F2290E52231EDDE60087E65B /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2290E51231EDDE60087E65B /* LoginUseCase.swift */; };
+		F2290E54231EDE0E0087E65B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2290E53231EDE0E0087E65B /* Coordinator.swift */; };
+		F2290E58231EDEA60087E65B /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2290E57231EDEA60087E65B /* AppCoordinator.swift */; };
+		F25D44AB231EDF94009A0E9D /* LoginConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25D44AA231EDF94009A0E9D /* LoginConfigurator.swift */; };
+		F25D44AD231EDFAE009A0E9D /* AuthenticationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25D44AC231EDFAE009A0E9D /* AuthenticationCoordinator.swift */; };
+		F2A45271231EE25D009C4AF9 /* LoginApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A45270231EE25D009C4AF9 /* LoginApiRequest.swift */; };
+		F2A45273231EE693009C4AF9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A45272231EE693009C4AF9 /* User.swift */; };
+		F2A4527B231EE822009C4AF9 /* CleanArchitecture_CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A4527A231EE822009C4AF9 /* CleanArchitecture_CoordinatorTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2A4527D231EE822009C4AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2290E22231EDC220087E65B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2290E29231EDC220087E65B;
+			remoteInfo = "CleanArchitecture+Coordinator";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F2290E2A231EDC230087E65B /* CleanArchitecture+Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CleanArchitecture+Coordinator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2290E2D231EDC230087E65B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2290E2F231EDC230087E65B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F2290E32231EDC230087E65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2290E34231EDC250087E65B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2290E37231EDC250087E65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2290E39231EDC250087E65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2290E48231EDD7B0087E65B /* LoginGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginGateway.swift; sourceTree = "<group>"; };
+		F2290E4A231EDDA20087E65B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F2290E4C231EDDB90087E65B /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		F2290E51231EDDE60087E65B /* LoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
+		F2290E53231EDE0E0087E65B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F2290E57231EDEA60087E65B /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		F25D44AA231EDF94009A0E9D /* LoginConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConfigurator.swift; sourceTree = "<group>"; };
+		F25D44AC231EDFAE009A0E9D /* AuthenticationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationCoordinator.swift; sourceTree = "<group>"; };
+		F2A45270231EE25D009C4AF9 /* LoginApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApiRequest.swift; sourceTree = "<group>"; };
+		F2A45272231EE693009C4AF9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F2A45278231EE822009C4AF9 /* CleanArchitecture+CoordinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CleanArchitecture+CoordinatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A4527A231EE822009C4AF9 /* CleanArchitecture_CoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanArchitecture_CoordinatorTests.swift; sourceTree = "<group>"; };
+		F2A4527C231EE822009C4AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F2290E27231EDC220087E65B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A45275231EE822009C4AF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				F2290E2C231EDC230087E65B /* CleanArchitecture+Coordinator */,
+				F2A45279231EE822009C4AF9 /* CleanArchitecture+CoordinatorTests */,
 				F2290E2B231EDC230087E65B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				F2290E2A231EDC230087E65B /* CleanArchitecture+Coordinator.app */,
+				F2A45278231EE822009C4AF9 /* CleanArchitecture+CoordinatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,13 +96,111 @@
 			isa = PBXGroup;
 			children = (
 				F2290E2D231EDC230087E65B /* AppDelegate.swift */,
-				F2290E2F231EDC230087E65B /* ViewController.swift */,
+				F2290E39231EDC250087E65B /* Info.plist */,
+				F2290E42231EDCA30087E65B /* Core */,
+				F2290E41231EDC970087E65B /* Scene */,
+				F2290E40231EDC8C0087E65B /* EntityPersistence */,
+				F2290E3F231EDC550087E65B /* Others */,
+			);
+			path = "CleanArchitecture+Coordinator";
+			sourceTree = "<group>";
+		};
+		F2290E3F231EDC550087E65B /* Others */ = {
+			isa = PBXGroup;
+			children = (
 				F2290E31231EDC230087E65B /* Main.storyboard */,
 				F2290E34231EDC250087E65B /* Assets.xcassets */,
 				F2290E36231EDC250087E65B /* LaunchScreen.storyboard */,
-				F2290E39231EDC250087E65B /* Info.plist */,
 			);
-			path = "CleanArchitecture+Coordinator";
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F2290E40231EDC8C0087E65B /* EntityPersistence */ = {
+			isa = PBXGroup;
+			children = (
+				F2290E47231EDD580087E65B /* API */,
+				F2290E46231EDD500087E65B /* LocalPersistence */,
+			);
+			path = EntityPersistence;
+			sourceTree = "<group>";
+		};
+		F2290E41231EDC970087E65B /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				F2290E45231EDCDC0087E65B /* Authentication */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		F2290E42231EDCA30087E65B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F2290E50231EDDD20087E65B /* Coordinator */,
+				F2290E44231EDCC90087E65B /* Entities */,
+				F2290E43231EDCB30087E65B /* Gateway */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F2290E43231EDCB30087E65B /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+				F2290E48231EDD7B0087E65B /* LoginGateway.swift */,
+			);
+			path = Gateway;
+			sourceTree = "<group>";
+		};
+		F2290E44231EDCC90087E65B /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F2A45272231EE693009C4AF9 /* User.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		F2290E45231EDCDC0087E65B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F25D44AC231EDFAE009A0E9D /* AuthenticationCoordinator.swift */,
+				F2290E4A231EDDA20087E65B /* LoginViewController.swift */,
+				F2290E4C231EDDB90087E65B /* LoginPresenter.swift */,
+				F2290E51231EDDE60087E65B /* LoginUseCase.swift */,
+				F25D44AA231EDF94009A0E9D /* LoginConfigurator.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F2290E46231EDD500087E65B /* LocalPersistence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LocalPersistence;
+			sourceTree = "<group>";
+		};
+		F2290E47231EDD580087E65B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F2A45270231EE25D009C4AF9 /* LoginApiRequest.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F2290E50231EDDD20087E65B /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F2290E53231EDE0E0087E65B /* Coordinator.swift */,
+				F2290E57231EDEA60087E65B /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F2A45279231EE822009C4AF9 /* CleanArchitecture+CoordinatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2A4527A231EE822009C4AF9 /* CleanArchitecture_CoordinatorTests.swift */,
+				F2A4527C231EE822009C4AF9 /* Info.plist */,
+			);
+			path = "CleanArchitecture+CoordinatorTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +223,24 @@
 			productReference = F2290E2A231EDC230087E65B /* CleanArchitecture+Coordinator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F2A45277231EE822009C4AF9 /* CleanArchitecture+CoordinatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A4527F231EE822009C4AF9 /* Build configuration list for PBXNativeTarget "CleanArchitecture+CoordinatorTests" */;
+			buildPhases = (
+				F2A45274231EE822009C4AF9 /* Sources */,
+				F2A45275231EE822009C4AF9 /* Frameworks */,
+				F2A45276231EE822009C4AF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2A4527E231EE822009C4AF9 /* PBXTargetDependency */,
+			);
+			name = "CleanArchitecture+CoordinatorTests";
+			productName = "CleanArchitecture+CoordinatorTests";
+			productReference = F2A45278231EE822009C4AF9 /* CleanArchitecture+CoordinatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +253,10 @@
 				TargetAttributes = {
 					F2290E29231EDC220087E65B = {
 						CreatedOnToolsVersion = 10.2.1;
+					};
+					F2A45277231EE822009C4AF9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F2290E29231EDC220087E65B;
 					};
 				};
 			};
@@ -113,6 +274,7 @@
 			projectRoot = "";
 			targets = (
 				F2290E29231EDC220087E65B /* CleanArchitecture+Coordinator */,
+				F2A45277231EE822009C4AF9 /* CleanArchitecture+CoordinatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +290,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2A45276231EE822009C4AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -135,12 +304,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2290E30231EDC230087E65B /* ViewController.swift in Sources */,
+				F2290E4D231EDDB90087E65B /* LoginPresenter.swift in Sources */,
+				F2290E4B231EDDA20087E65B /* LoginViewController.swift in Sources */,
+				F2A45271231EE25D009C4AF9 /* LoginApiRequest.swift in Sources */,
+				F2290E49231EDD7B0087E65B /* LoginGateway.swift in Sources */,
+				F2290E58231EDEA60087E65B /* AppCoordinator.swift in Sources */,
 				F2290E2E231EDC230087E65B /* AppDelegate.swift in Sources */,
+				F2290E52231EDDE60087E65B /* LoginUseCase.swift in Sources */,
+				F25D44AD231EDFAE009A0E9D /* AuthenticationCoordinator.swift in Sources */,
+				F25D44AB231EDF94009A0E9D /* LoginConfigurator.swift in Sources */,
+				F2290E54231EDE0E0087E65B /* Coordinator.swift in Sources */,
+				F2A45273231EE693009C4AF9 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A45274231EE822009C4AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A4527B231EE822009C4AF9 /* CleanArchitecture_CoordinatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2A4527E231EE822009C4AF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2290E29231EDC220087E65B /* CleanArchitecture+Coordinator */;
+			targetProxy = F2A4527D231EE822009C4AF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F2290E31231EDC230087E65B /* Main.storyboard */ = {
@@ -312,6 +506,44 @@
 			};
 			name = Release;
 		};
+		F2A45280231EE822009C4AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CleanArchitecture+CoordinatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bianchini.com.CleanArchitecture-CoordinatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanArchitecture+Coordinator.app/CleanArchitecture+Coordinator";
+			};
+			name = Debug;
+		};
+		F2A45281231EE822009C4AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CleanArchitecture+CoordinatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bianchini.com.CleanArchitecture-CoordinatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanArchitecture+Coordinator.app/CleanArchitecture+Coordinator";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -329,6 +561,15 @@
 			buildConfigurations = (
 				F2290E3D231EDC250087E65B /* Debug */,
 				F2290E3E231EDC250087E65B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A4527F231EE822009C4AF9 /* Build configuration list for PBXNativeTarget "CleanArchitecture+CoordinatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A45280231EE822009C4AF9 /* Debug */,
+				F2A45281231EE822009C4AF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
